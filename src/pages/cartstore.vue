@@ -3,7 +3,7 @@
     <headermuf></headermuf>
     <div class="card-2-column1">
       <div class="frame-parent">
-        <img class="frame-item" alt="" src="/frame-18.svg" />
+        <img class="frame-item" alt="" src="" />
         <b class="b1">เลือกทั้งหมด</b>
       </div>
     </div>
