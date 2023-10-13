@@ -24,9 +24,9 @@
           <div class="eye-catching-button">
             <div class="hovertrue">
               <div class="button2">
-                <img class="vector-icon" alt="" src="/vector.svg" />
+                <img class="vector-icon" alt="" src="" />
                 <b class="b">{{ item.price }}</b>
-                <img class="icon-plus" alt="" src="/-icon-plus.svg" />
+                <img class="icon-plus" alt="" src="" />
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@
             <p class="blank-line4">&nbsp;</p>
           </div>
           <div class="spacer" />
-          <img class="star-icon" alt="" src="/star.svg" />
+          <img class="star-icon" alt="" src="" />
           <button @click="data.addToCart(product,log)" class="btn btn-dark position-absolute bottom-0 m-3 rounded-pill">Add
             to cart</button>
         </div>
@@ -133,7 +133,7 @@
           <p class="blank-line4">&nbsp;</p>
         </div>
         <div class="spacer" />
-        <img class="star-icon" alt="" src="/star.svg" />
+        <img class="star-icon" alt="" src="" />
         <button @click="data.addToCart(product,log)" class="btn btn-dark position-absolute bottom-0 m-3 rounded-pill">Add
           to cart</button>
       </div>
@@ -166,7 +166,7 @@
           <p class="blank-line4">&nbsp;</p>
         </div>
         <div class="spacer" />
-        <img class="star-icon" alt="" src="/star.svg" />
+        <img class="star-icon" alt="" src="" />
         <button @click="data.addToCart(product,log)" class="btn btn-dark position-absolute bottom-0 m-3 rounded-pill">Add
           to cart</button>
       </div>
