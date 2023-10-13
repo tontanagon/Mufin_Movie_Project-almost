@@ -31,8 +31,8 @@ const product = ref([
               Director : {{ product[0].director }}</p>
           </div>
         </div>
-          <div class="card">
-          <div class="card-title"> IMDb comment</div>
+          <div class="card text-center ">
+          <div class="card-title m-3"><img src="https://cdn-icons-png.flaticon.com/128/4140/4140047.png" class="img">IMDb comment</div>
             <div class="card-body">
               <div
                 id="carouselExampleAutoplaying"
@@ -51,6 +51,8 @@ const product = ref([
                   </div>
                 </div>
               </div>
+              <div class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>
+
             </div>
           </div>
         </div>
@@ -66,25 +68,27 @@ const product = ref([
               Director : {{ product[1].director }}</p>
           </div>
         </div>
-          <div class="card">
+          <div class="card text-center">
+            <div class="card-title m-3"><img src="https://cdn-icons-png.flaticon.com/128/4140/4140037.png" class="img">IMDb comment</div>
             <div class="card-body">
               <div
                 id="carouselExampleAutoplaying"
                 class="carousel slide"
                 data-ride="carousel"
               >
-                <div class="carousel-inner">
+              <div class="carousel-inner">
                   <div class="carousel-item active">
-                    awdfawdawd
+                    {{ product[1].reviwe1 }}
                   </div>
                   <div class="carousel-item">
-                   awdhfgykj
+                    {{ product[1].reviwe2 }}
                   </div>
                   <div class="carousel-item">
-                    ;argnemjop'egra
+                    {{ product[1].reviwe3 }}
                   </div>
                 </div>
               </div>
+              <div class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>
             </div>
           </div>
         </div>
@@ -100,25 +104,27 @@ const product = ref([
               Director : {{ product[2].director }}</p>
           </div>
         </div>
-          <div class="card">
+          <div class="card text-center">
+            <div class="card-title m-3"><img src="https://cdn-icons-png.flaticon.com/128/4140/4140048.png" class="img">IMDb comment</div>
             <div class="card-body">
               <div
                 id="carouselExampleAutoplaying"
                 class="carousel slide"
                 data-ride="carousel"
               >
-                <div class="carousel-inner">
+              <div class="carousel-inner">
                   <div class="carousel-item active">
-                    awdfawdawd
+                    {{ product[2].reviwe1 }}
                   </div>
                   <div class="carousel-item">
-                   awdhfgykj
+                    {{ product[2].reviwe2 }}
                   </div>
                   <div class="carousel-item">
-                    ;argnemjop'egra
+                    {{ product[2].reviwe3 }}
                   </div>
                 </div>
               </div>
+              <div class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-solid"></i><i class="fa-regular fa-star"></i></div>     
             </div>
           </div>
         </div>
@@ -134,30 +140,31 @@ const product = ref([
               Director : {{ product[3].director }}</p>
           </div>
         </div>
-          <div class="card">
+          <div class="card text-center">
+            <div class="card-title m-3"><img src="https://cdn-icons-png.flaticon.com/128/6997/6997662.png" class="img">IMDb comment</div>
             <div class="card-body">
               <div
                 id="carouselExampleAutoplaying"
                 class="carousel slide"
                 data-ride="carousel"
               >
-                <div class="carousel-inner">
+              <div class="carousel-inner">
                   <div class="carousel-item active">
-                    awdfawdawd
+                    {{ product[3].reviwe1 }}
                   </div>
                   <div class="carousel-item">
-                   awdhfgykj
+                    {{ product[3].reviwe2 }}
                   </div>
                   <div class="carousel-item">
-                    ;argnemjop'egra
+                    {{ product[3].reviwe3 }}
                   </div>
                 </div>
               </div>
+              <div class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></div>
             </div>
           </div>
         </div>
-
-    </div>
+            </div>
   </div>
   <Footer class="container-fluid"></Footer>
 </template>
@@ -165,5 +172,9 @@ const product = ref([
 <style scoped>
 .h-100{
   background-color: #B6DEF9;
+}
+.img{
+  max-width: 50px;
+  margin: 20px;
 }
 </style>
